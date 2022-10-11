@@ -6,10 +6,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York" />
         <footer>
-          This project was coded by Tetiana Shapovalova and is {""}
-          <a href="https://github.com/Tattisha/react-app" target="_blank">
+          This project was coded by Tetiana Shapovalova and is{" "}
+          <a
+            href="https://github.com/Tattisha/react-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             open-sourced on GitHub
           </a>
         </footer>
